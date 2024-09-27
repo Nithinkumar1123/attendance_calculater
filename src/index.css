@@ -1,0 +1,36 @@
+body {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode {
+  background-color: #343a40;
+  color: #f8f9fa;
+}
+
+.light-mode {
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+.subject {
+  margin: 10px 0;
+}
+
+#results {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #E94E77;
+}
+
+#quote {
+  margin-top: 20px;
+  font-style: italic;
+  color: #4A90E2;
+}
+
+.btn-toggle {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
